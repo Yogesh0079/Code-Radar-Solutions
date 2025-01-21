@@ -2,6 +2,6 @@
 int main()
 {
     float a;
-    scanf("%d"&a);
+    scanf("%d",&a);
     return 0;
 }
