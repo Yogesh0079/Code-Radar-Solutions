@@ -3,7 +3,7 @@ int main()
 {
     long num;
     scanf("%lf",num);
-    printf("You enterd: %.2lf\n",num);
+    printf("You entered: %.2lf\n",num);
     return 0:
 
 }
