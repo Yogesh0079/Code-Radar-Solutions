@@ -3,7 +3,7 @@ int main()
 {
     float a,b;
     scanf("%f %f",&a,&b);
-    if (a == pow(b,2)) {
+    if (a == b^2) {
         printf("Yes");
     } else {
         printf("No");
