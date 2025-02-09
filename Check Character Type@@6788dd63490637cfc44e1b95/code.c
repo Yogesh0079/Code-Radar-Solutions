@@ -2,8 +2,7 @@
 #include <ctype.h> 
 int main()
 {
-     char ch;
-    printf("Enter a character: ");
+    char ch;
     scanf("%c", &ch);
     if (isalpha(ch)) {
         ch = tolower(ch);
