@@ -3,11 +3,12 @@ int main()
 {
     char a;
     scanf("%ch", &a);
-    if (isupper(a)) 
+    if (isupper(a)) {
     printf("Uppercase");
-    else if
+    } else if {
     printf("Lowercase");
-    else
+    } else {
     printf("Not an alphabet");
+    } 
     return 0;
 }
