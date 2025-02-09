@@ -3,10 +3,10 @@ int main()
 {
     float a,b;
     scanf("%f %f",&a,&b);
-    if (a == b^2) {
-        printf("Yes");
+    if (a == b*b) {
+        printf("Yes\n");
     } else {
-        printf("No");
+        printf("No\n");
     }
     return 0;
 }
