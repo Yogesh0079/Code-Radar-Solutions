@@ -1,12 +1,16 @@
 #include <stdio.h>
-int main()
-{
-    int a,b,c;
-    scanf("%d %d %d",&a,&b,&c);
-    if(isvalidtriangle(a,b,c)) {
-    printf("Valid\n");
+
+int isValidTriangle(int a, int b, int c) {
+    return (a + b > c) && (a + c > b) && (b + c > a);
+}
+
+int main() {
+    int side1, side2, side3;
+    scanf("%d %d %d", &side1, &side2, &side3);
+    if (isValidTriangle(side1, side2, side3)) {
+        printf("Valid\n", side1, side2, side3);
     } else {
-    printf("Invalid\n");
+        printf("Invalid\n", side1, side2, side3);
     }
     return 0;
 }
