@@ -35,14 +35,14 @@ int main()
         case '10':
         printf("31\n");
         break;
-        case '11'':
+        case '11':
         printf("30\n");
         break;
         case '12':
         printf("31\n");
         break;
         default:
-        printf("Invalid");
+        printf("Invalid\n");
     }
     return 0;
 }
