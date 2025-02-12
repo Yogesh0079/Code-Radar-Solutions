@@ -16,11 +16,8 @@ int main()
         printf("%d\n",a*b);
         break;
         case '/':
-        if (b != 0) {
+        if (b != 0) 
         printf("%d\n",a/b);
-        } else {
-        printf("Invalid")
-        }
         break;
         default:
         printf("Invalid");
