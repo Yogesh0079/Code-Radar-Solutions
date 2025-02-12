@@ -18,6 +18,8 @@ int main()
         case '/':
         if (b != 0) 
         printf("%d\n",a/b);
+        else 
+        printf("Invalid input");
         break;
         default:
         printf("Invalid");
