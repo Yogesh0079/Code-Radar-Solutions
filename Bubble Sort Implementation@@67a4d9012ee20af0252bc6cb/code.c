@@ -20,8 +20,6 @@ int main() {
         scanf("%d", &arr[i]);
     }
     sortAscending(arr, n);
-
-    printf("%d",arr);
     for (int i = 0; i < n; i++) {
         printf("%d ", arr[i]);
     }
